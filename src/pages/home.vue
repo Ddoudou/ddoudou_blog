@@ -1,5 +1,7 @@
 <template>
-    <div></div>
+<div class="main">
+
+</div>
 </template>
 
 <script>
@@ -16,6 +18,10 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    .main{
+        width: 100%;
+        height: 200px;
+        background: coral;
+    }
 </style>

@@ -12,7 +12,7 @@ import axios from 'axios'
 Vue.config.productionTip = false
 
 Vue.use(ElementUI);
-Vue.use(axios);
+Vue.prototype.$http = axios
 
 new Vue({
   router,
