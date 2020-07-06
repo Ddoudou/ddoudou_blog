@@ -32,7 +32,8 @@ th,td {
 a {
 	outline:none;
 	color:#16418a;
-	text-decoration:none;
+    text-decoration:none;
+    backface-visibility: hidden;
 	-webkit-backface-visibility:hidden;
 }
 a:focus {

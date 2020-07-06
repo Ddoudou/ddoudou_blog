@@ -1,20 +1,25 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Index from '../pages/index'
-import Home from '../pages/home'
+import ArticleList from '../components/ArticleList'
+import Dota2 from '../components/Dota2Index'
 
 
 Vue.use(VueRouter)
 
 const routes = [
     {
-        path:'/',
-        component:Index,
-        children:[{
-            path:'',
-            name:'home',
-            component:Home
-        }]
+        path: '/',
+        component: Index,
+        children: [{
+            path: '',
+            name: 'articleList',
+            component: ArticleList
+        }, {
+            path: 'dota2',
+            name: 'dota2',
+            component: Dota2
+        },]
     }
 ]
 

@@ -8,6 +8,4 @@
 </script>
 
 <style>
-#app {
-}
 </style>
