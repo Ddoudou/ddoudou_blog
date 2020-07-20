@@ -6,9 +6,10 @@
         </div>
         <aplayer
             autoplay
+            mini
             :music="{
-    title: 'secret base~君がくれたもの~',
-    artist: 'Silent Siren',
+    title: '来一起爬山啊',
+    artist: '你看我还有机会吗',
     src: 'http://music.163.com/song/media/outer/url?id=1300592401.mp3',
     pic: 'https://p2.music.126.net/6gdbj6LHlhShsYptj4fNRg==/109951163451264184.jpg'
   }"

@@ -62,14 +62,14 @@ export default {
 </script>
 
 <style>
-.head-inner {
+.header-inner {
   width: 100%;
   height: 750px;
   padding: 0;
   position: relative;
 }
 .top-nav {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;

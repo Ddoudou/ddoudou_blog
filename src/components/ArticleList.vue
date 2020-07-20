@@ -1,25 +1,29 @@
 <template>
-    <div>
-        <div v-for="i in 10" :key="i">
-            <el-card class="box-card">
-                <div slot="header" class="clearfix">
-                    <span>dota2对战信息查询</span>
-                    <router-link to="dota2">
-                        <el-button style="float: right; padding: 3px 0" type="text">查看详情</el-button>
-                    </router-link>
-                </div>
-                api基于opendota，免费接口，查询次数有限qaq,第{{i}}次重复！
-            </el-card>
+  <div>
+      <el-card class="box-card">
+        <div slot="header" class="clearfix">
+          <span>dota2信息查询</span>
+          <router-link to="dota2">
+            <el-button style="float: right; padding: 3px 0" type="text">查看详情</el-button>
+          </router-link>
         </div>
+        api基于opendota，免费接口，查询次数有限qaq
+      </el-card>
     </div>
 </template>
 <script>
 export default {
   name: "ArticleList",
   data() {
-    return {};
+    return {
+      blogList:[]
+    };
   },
-  methods: {}
+  mounted(){
+  },
+  methods: {
+
+  }
 };
 </script>
 
